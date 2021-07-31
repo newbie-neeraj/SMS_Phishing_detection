@@ -39,7 +39,7 @@ clf3=AdaBoostClassifier(n_estimators=50, learning_rate=1)
 clf4=svm.SVC(kernel='linear')
 clf5=GaussianNB()
 clf6=LogisticRegression()
-clf7=KNeighborsClassifier(10)
+clf7=KNeighborsClassifier(3)
 clf8=LinearDiscriminantAnalysis()
 clf9=GradientBoostingClassifier(learning_rate=0.1)
 
